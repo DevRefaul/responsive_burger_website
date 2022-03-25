@@ -1,0 +1,846 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(133, 30, 30);
+}
+
+/* header section style started */
+#header{
+
+    background-image: url(img/hero-bg.png);
+    height: auto;
+}
+#header .nav-bg{
+    width: 100%;
+    background-image: url(img/hero-bg.png); 
+    height: auto;
+}
+#hero{
+    margin-top: 70px;
+    padding: 70px 0px ;
+}
+
+#navbarNav ul li a{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* navbar finished */
+.hero-txt{
+    padding: 50px 20px;
+}
+.hero-txt h5{
+    display: inline-block;
+    padding: 10px 8px;
+    font-size: 15px;
+    border: 2px dashed #777;
+
+}
+.hero-txt h1{
+        font-size: 80px;
+    font-weight: 700;
+    text-shadow: 3px 3px  #fff;
+}
+.hero-txt h2{
+    text-align: left;
+    font-size: 45px;
+    font-weight: 700;
+    text-shadow: 3px 3px  #fff;
+}
+
+
+.hero-img img{
+width: 85%;
+height: auto;
+
+}
+
+
+/* header section finished */
+
+
+/* menu section started */
+#menu{
+    padding: 70px 30px;
+}
+#menu .menu-img{
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+#menu .menu-img .left-img{
+    flex-basis: 45%;
+    padding: 30px 0px;
+}
+#menu .menu-img .left-img img{
+    width: 100%;
+}
+#menu .menu-img .right-img{
+    flex-basis: 45%;
+}
+#menu .menu-img .right-img img:last-child{
+    margin-top: 40px;
+}
+#menu .menu-img .right-img img{
+    width: 100%;
+}
+
+/* menu section done */
+
+
+/* products section started */
+
+#products{
+    padding-bottom: 50px;
+}
+.pro-text{
+    padding: 50px 20px;
+    text-align: center;
+}
+.pro-text h4{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: orange;
+}
+.pro-text h1{
+    margin: 30px 0px;
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 3px 3px  #fff;
+}
+.pro-text p{
+    font-size: 18px;
+    line-height: 35px;
+}
+
+
+.pro-img{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 2%;
+ padding: 20px 20px;
+
+}
+
+
+.first-product{
+    flex-basis: 32%;
+    text-align: center;
+    border-right: 1px solid #777;
+    padding: 10px 30px;
+}
+.first-product img{
+    width: 60%;
+    margin-bottom: 30px;
+}
+.sec-product{
+    flex-basis: 32%;
+    text-align: center;
+    padding: 10px 30px;
+}
+.sec-product img{
+    width: 60%;
+    margin-bottom: 30px;
+}
+.thrd-product{
+    flex-basis: 32%;
+    text-align: center;
+    border-left: 1px solid #777;
+    padding: 10px 30px;
+}
+.thrd-product img{
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.btn-danger:hover{
+    background-color: orange;
+
+}
+
+/* menu section end */
+
+/* carousel item started */
+#story{
+    padding: 70px 30px;
+}
+#story .carousel-inner{
+    padding: 40px 20px;
+    box-shadow: 0px 10px 20px #333;
+    border-radius: 5px;
+}
+.card-body h5{
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 2px 2px #777;
+}
+.card-body p{
+    font-size: 20px;
+    
+} 
+.carousel-inner .card{
+    border: none;
+
+}
+.carousel-inner .card .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+    padding: 20px 10px;
+}
+.carousel-control-prev-icon {
+    background-color: black;
+    padding: 20px 10px;
+}
+
+/* carousel section done */
+
+/* contact section started */
+.contact{
+    width: 100%;
+}
+.main-contact{
+
+} 
+.main-contact h4,h2{
+    text-align: center;
+    
+}
+.main-contact h4{
+    font-size: 35px;
+    font-weight: 700;
+}
+.main-contact h2{
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 3px 3px  #333;
+    padding-bottom: 70px;
+}
+.contact input{
+    display: block;
+    margin: 20px 0px;
+    padding: 8px 10px;
+    width: 100%;
+}
+.contact button{
+    padding: 8px 10px;
+    width: 100%;
+}
+.contact .left-side{
+    width: 40%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.contact .right-side{
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 40%;
+}
+
+
+
+/* contact section done */
+
+/* footer section started */
+#footer{
+    padding: 70px 0px;
+}
+.footer{
+    padding: 70px 30px;
+    background-image: url(img/f-bg.png);
+    height: auto;
+    background-repeat: no-repeat;
+}
+.footer h6{
+    color: #fff;
+    font-size: 18;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.footer h6 i{
+    color: #fff;
+    font-size: 25px;
+    padding-right: 20px;
+}
+.f-logo img{
+    width: 25%;
+}
+.fl-text{
+    flex-wrap: wrap;
+    flex-basis: 40%;
+
+}
+
+.fr-text{
+    flex-wrap: wrap;
+    flex-basis: 40%;
+    text-align: right;
+}
+
+
+.f-social .copy h5{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+.fa-heart{
+    color: red;
+    font-size: 18px;
+}
+
+.social a{
+    font-size: 13px;
+    padding: 10px 13px;
+    background-color: #fff;
+    color: #333;
+    border: .5px solid #777;
+    border-radius: 50px;
+}
+.social .fa-facebook{
+    padding: 10px 3px;
+}
+
+/* footer section end */
+
+
+
+
+
+
+
+
+
+
+/* media querys */
+
+@media (max-width:320px){
+    #header .navbar .container{
+        /* flex-wrap: wrap-reverse; */
+    }
+    .navbar-brand{
+        width: 50%;
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
+    #hero{
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+    .hero-txt{
+        text-align: center;
+    }
+    .hero-txt h1{
+        font-size: 50px;
+    }
+    .hero-txt h2{
+        text-align: center;
+    }
+    .hero-img img {
+        width: 100%;
+        height: auto;
+    }
+    #menu {
+        padding-top: 30px;
+    }
+    #menu .menu-img{
+        display: block;
+    }
+    .pro-text{
+        padding-top: 0;
+    }
+    .pro-text h1{
+        font-size: 30px;
+    }
+    .pro-text h4{
+        font-size: 12px;
+    }
+    .pro-text p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .pro-img{
+        display: block;
+    }
+    .pro-img button{
+        font-size: 11px;
+    }
+
+    .sec-product {
+        padding: 20px 0px;
+    }
+    .sec-product button{
+        padding: 8px 8px;
+    }
+    .thrd-product{
+        border-left: none;
+        padding-top: 40px;
+    }
+    .cleft-img img{
+        width: 100%;
+    }
+    .cright-img img{
+        width: 100%;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+    .main-contact h4{
+        font-size: 12px;
+
+    }
+    .main-contact h2{
+        display:block;
+        font-size: 25px;
+        padding-bottom: 20px;
+        text-shadow: 2px 2px  #333;
+    }
+    #story .carousel-inner .card-body h5{
+        font-size: 30px;
+    }
+    #story .carousel-inner .card-body p{
+        font-size: 12px;
+    }
+    .contact .left-side{
+        width: 49%;
+        padding-right:0 ;
+    }
+    .contact .right-side{
+        padding-left:0 ;
+        width: 49%;
+    }
+    .cleft-img img{
+        display: none;
+    }
+    .cright-img img{
+        display: none;
+    }
+    .footer{
+        padding-top: 30px !important;
+    }
+    .f-logo{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .f-logo img{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .footer h6{
+        color: #fff;
+        font-size: 10;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+    .footer h6 i{
+        color: #fff;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    .f-text{
+        display: block !important;
+        padding-bottom: 0 !important;
+    }
+    .fl-text{
+        padding: 30px 10px;
+        text-align: center;
+        padding-bottom: 10px !important;
+    }
+    
+    .fr-text{
+        padding: 0px 10px 10px 0px;
+        text-align: center;
+    }
+    .fr-text h6{
+        font-size: 12px;
+    }
+    .f-social {
+        display: block !important;
+        padding-top: 0 !important;
+        gap: 5%;
+    }
+    .f-social .copy{
+       
+      display: block;
+    }
+    .f-social .copy h5{
+        font-size: 12px;
+        padding: 10px 0px;
+    }
+    .f-social .social a{
+        font-size: 10px;
+        margin: 0px 8px;
+    }
+    .f-social .social{
+        padding-top: 10px;
+        display: block;
+        text-align: center;
+
+    }
+}
+
+
+
+ @media (min-width:321px) and (max-width:375px){
+    #hero{
+        padding-top: 20px;
+    }
+    .hero-txt{
+        text-align: center;
+    }
+    .hero-txt h2{
+        text-align: center;
+    }
+    .hero-img img {
+        width: 100%;
+        height: auto;
+    }
+    #menu .menu-img{
+        display: block;
+    }
+    .pro-text h1{
+        font-size: 40px;
+    }
+    .pro-text h4{
+        font-size: 15px;
+    }
+    .pro-img button{
+        font-size: 11px;
+    }
+
+    .sec-product {
+        padding: 10px ;
+    }
+    .sec-product button{
+        padding: 8px 10px;
+    }
+    .thrd-product{
+        border-left: none;
+        padding-top: 40px;
+    }
+
+    .cleft-img img{
+        width: 100%;
+    }
+    .cright-img img{
+        width: 100%;
+    }
+    .main-contact h4{
+        font-size: 12px;
+
+    }
+    .main-contact h2{
+        display:block;
+        font-size: 25px;
+        padding-bottom: 20px;
+        text-shadow: 2px 2px  #333;
+    }
+    .contact .left-side{
+        width: 49%;
+        padding-right:0 ;
+    }
+    .contact .right-side{
+        padding-left:0 ;
+        width: 49%;
+    }
+    .cleft-img img{
+        display: none;
+    }
+    .cright-img img{
+        display: none;
+    }
+    .footer{
+        padding-top: 30px !important;
+    }
+    .f-logo{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .f-logo img{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .footer h6{
+        color: #fff;
+        font-size: 10;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+    .footer h6 i{
+        color: #fff;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    .f-text{
+        display: block !important;
+        padding-bottom: 0 !important;
+    }
+    .fl-text{
+        padding: 30px 10px;
+        text-align: center;
+        padding-bottom: 10px !important;
+    }
+    
+    .fr-text{
+        padding: 0px 10px 30px 0px;
+        text-align: center;
+    }
+    .f-social {
+        display: block !important;
+        padding-top: 0 !important;
+        gap: 5%;
+    }
+    .f-social .copy{
+       
+      display: block;
+    }
+    .f-social .copy h5{
+        font-size: 12px;
+        padding: 10px 0px;
+    }
+    .f-social .social a{
+        font-size: 10px;
+        margin: 0px 8px;
+    }
+    .f-social .social{
+        padding-top: 10px;
+        display: block;
+        text-align: center;
+        
+    }
+}
+
+
+@media (min-width:376px) and (max-width:425px){
+    #hero{
+        padding-top: 20px;
+    }
+    .hero-txt{
+        text-align: center;
+    }
+    .hero-txt h2{
+        text-align: center;
+    }
+    .hero-img img {
+        width: 100%;
+        height: auto;
+    }
+    #menu .menu-img{
+        display: block;
+    }
+    .pro-text h1{
+        font-size: 40px;
+    }
+    .pro-text h4{
+        font-size: 15px;
+    }
+    .pro-img button{
+        font-size: 11px;
+    }
+
+    .sec-product {
+        padding: 10px ;
+    }
+    .sec-product button{
+        padding: 8px 10px;
+    }
+    .thrd-product{
+        border-left: none;
+        padding-top: 40px;
+    }
+    .cleft-img img{
+        width: 100%;
+    }
+    .cright-img img{
+        width: 100%;
+    }
+    .main-contact h4{
+        font-size: 12px;
+
+    }
+    .main-contact h2{
+        display:block;
+        font-size: 25px;
+        padding-bottom: 20px;
+        text-shadow: 2px 2px  #333;
+    }
+    .contact .left-side{
+        width: 49%;
+        padding-right:0 ;
+    }
+    .contact .right-side{
+        padding-left:0 ;
+        width: 49%;
+    }
+    .cleft-img img{
+        display: none;
+    }
+    .cright-img img{
+        display: none;
+    }
+    .footer{
+        padding-top: 30px !important;
+    }
+    .f-logo{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .f-logo img{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .footer h6{
+        color: #fff;
+        font-size: 18;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+    .footer h6 i{
+        color: #fff;
+        font-size: 25px;
+        padding-right: 20px;
+    }
+    .f-text{
+        display: block !important;
+        padding-bottom: 0 !important;
+    }
+    .fl-text{
+        padding: 30px 10px;
+        text-align: center;
+    
+    }
+    
+    .fr-text{
+        padding: 0px 10px 30px 0px;
+        text-align: center;
+    }
+    .f-social {
+        padding-top: 0 !important;
+        gap: 5%;
+    }
+    .f-social .copy{
+        flex-basis: 45%;
+      
+    }
+    .f-social .copy h5{
+        font-size: 8px;
+    }
+    .f-social .social a{
+        font-size: 10px;
+    }
+    .f-social .social{
+        flex-basis: 50%;
+    }
+}
+
+
+
+@media (min-width:426px) and (max-width:768px){
+    .btn-danger{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #menu{
+        padding-bottom: 30px;
+    }
+    .pro-text{
+        padding-top: 30px;
+    }
+    .pro-text h4{
+        font-size: 15px;
+    }
+    .pro-text h1{
+        font-size: 50px;
+    }
+
+    #story .carousel-inner .card-body h5{
+        font-size: 40px;
+    }
+    #story .carousel-inner .card-body p{
+        font-size: 15px;
+    }
+    .cleft-img img{
+        width: 100%;
+    }
+    .cright-img img{
+        width: 100%;
+    }
+    .main-contact h4{
+        font-size: 25px;
+
+    }
+    .main-contact h2{
+        font-size: 40px;
+        padding-bottom: 20px;
+
+    }
+    .contact .left-side{
+        width: 49%;
+        padding-right:0 ;
+    }
+    .contact .right-side{
+        padding-left:0 ;
+        width: 49%;
+    }
+    .footer h6{
+        font-size: 12px;
+
+    }
+    .f-social .copy  h5{
+        font-size: 12px;
+    }
+    .f-social .social a{
+        font-size: 10px;
+    }
+} 
+
+
+@media (min-width:769px) and (max-width:1024px){
+    .cleft-img img{
+        width: 100%;
+    }
+    .cright-img img{
+        width: 100%;
+    }
+    .main-contact h4{
+        font-size: 25px;
+
+    }
+    .main-contact h2{
+        font-size: 50px;
+        padding-bottom: 20px;
+
+    }
+    .contact .left-side{
+        width: 49%;
+
+    }
+    .contact .right-side{
+
+        width: 49%;
+    }
+}
+
+
+@media (min-width:1025px) and (max-width:1440px){
+
+}
+
+
+
+
+
+
